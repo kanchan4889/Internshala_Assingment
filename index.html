@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation-Bar</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--------NaveBar------->
+
+<section id="Navbar">
+
+<nav class="navbar navbar-light" style="background-color: #66847F;">
+  <a class="navbar-brand" href="index.html"> <img src="logo.png" height="40" width="60"> </a>
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
+        <a class="nav-link" href="service.html">Our Services</a>
+      </li>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+</section>
+
+<!---------content---------->
+
+<section id="content-first">
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+  <div class="swiper-slide"><img src="car1.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car9.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car3.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car4.webp" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car5.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car6.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car7.png" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car7.png" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car9.jpg" height="350" width="400"></div>
+    <div class="swiper-slide"><img src="car10.jpg" height="350" width="400"></div>
+    </div>
+ <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+       loop:true,
+        autoplay: {
+        delay: 1000,
+        disableOnInteraction: true,
+      },
+    
+    });
+  </script>
+
+</section>
+
+<section id = "why-choose-me">
+  <div class="row">
+      <div class="col-lg-6">
+        <div class="default-title">
+          <h2>
+            <b>
+              WHY CHOOSE US ?
+            </b>
+          </h2>
+
+      </div>
+  </div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <div class="why-choose-contents">
+      <h3>
+        Why We Are Best!!
+      </h3>
+      <p>
+        You and your order is important to us. We will get your job done as quickly as possible without compromising our high quality standards. End to End Solutions- We know what it takes to get the job done. We have the knowledge, capacity and production skills to create surfboards and graphics to your vision.
+      </p>
+    </div>
+    <div class="why-choose-service">
+      <h3>
+        Wich Services You Will Get From Us ?
+      </h3>
+      <p>
+       If you have questions about an item you would like to ship to India from the United States, our customer service team will be happy to assist you. 
+      </p>
+    </div>
+   </div>
+  <div class="col-lg-6 videocl">
+   <video controls="">   
+     <source src="video.mp4" type="video/mp4">
+   </video>
+  </div>
+</div>
+</div>
+  </section>
+
+<section id="map">
+
+<dive class ="marquee"><marquee direction="right" height="20">FORT POINT AUTOMOTIVE is authorised Maruti Suzuki outlet in Mumbai and Thane.We started our journey with Hero Honda dealership in the year 1993. In the same year, we were awarded the dealership of Hindustan Motors. </marquee></dive>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.129629023852!2d75.37608901402024!3d19.876747486633583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9be49c93a015%3A0x504fabea7bf7e852!2sMaruti%20Suzuki%20TRUE%20VALUE%20(Automotive%20Manufacturers%2C%20Aurangabad%2C%20Chikalthana)!5e0!3m2!1sen!2sin!4v1600271636026!5m2!1sen!2sin" width="1260" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</section>
+
+<section id="info">
+  
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3 test">
+      <h5>Showroom Address</h5>
+      Maruti Suzuki ARENA, Jogeshwari
+      Fortpoint Automotive Cars Pvt. Ltd.Unit no 1 2 and 3 Hubtown viva Shankarwadi, Jogeshwari East, Mumbai, Maharashtra - 400060
+ </div>
+    <div class="col-lg-3 test">
+      <h5>Maruti Suzuki ARENA, Ghodbunder Road</h5>
+      <p>Fortpoint Automotive Cars Pvt. Ltd.
+      Pataskar Estate, Next to Axis Bank,
+      Anand Nagar, Ghodbunder Road, Thane West, Maharashtra - 400615
+      
+    </div>
+    <div class="col-lg-3 test">
+      <h5>Working Hours:</h5>Mon - Sun : 09:30 AM - 06:30 PM
+
+      <h5>Outlet Type:</h5> Showroom
+
+    </div>
+    <div class="col-lg-3 test">
+      
+      
+
+       <h5>
+         CAR'S
+       </h5>
+       <li class="carnames"><a href="#">Alto</a></li>
+       <li class="carnames"><a href="#">Swift</a></li>
+       <li class="carnames"><a href="#">Ertiga</a></li>
+       <li class="carnames"><a href="#">WaganoR</a></li>
+       <li class="carnames"><a href="#">Audi</a></li> 
+    </div>
+  </div>
+</div>
+ </section>
+
+ <section id="footer">
+<footer>
+  <h5>
+Copyright © Maruti Suzuki India Limited</h5>
+</footer>   
+</section>
+
+</body>
+</html>

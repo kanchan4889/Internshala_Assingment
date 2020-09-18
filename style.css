@@ -1,0 +1,163 @@
+.
+{
+     margin: 0px;
+     padding: 0px;
+}
+
+
+#why-choose-me
+{
+     position: relative;
+     background-image: url(car12.png);
+}
+
+.default-title
+{
+    font-size: 100px;
+    color: #117A65;
+    font-family: Castellar;
+}
+
+.why-choose-contents
+{
+     margin-bottom: 30px;
+}
+
+.why-choose-contents:last-of-type
+{
+     margin-bottom: 10;
+}
+
+
+.why-choose-contents h3
+{
+    font-family: Algerian;
+    color: white;
+    font-size: 35px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.why-choose-contents p
+{
+    font-family: Colonna MT;
+    font-style: italic;
+    font-size: 20px;
+    color: #F39C12;
+    line-height: 27px;
+    margin-bottom: 0px;
+}
+.why-choose-service h3
+{
+
+    font-family: Algerian;
+    color: white;
+    font-size: 35px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+
+.why-choose-service p
+{
+
+    font-family: Colonna MT;
+    font-style: italic;
+    font-size: 20px;
+    color: #F39C12;
+    line-height: 27px;
+    margin-bottom: 0px;
+
+}
+
+.Why-OUr-Car h3
+{
+
+    font-family: Algerian;
+    color: white;
+    font-size: 35px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+
+}
+
+.Why-OUr-Car p
+{
+
+     font-family: Colonna MT;
+     font-style: italic;
+     font-size: 20px;
+     color: #F39C12;
+     line-height: 27px;
+     margin-bottom: 0px;
+
+}
+
+.video-area
+{
+      position:relative;
+}
+
+.videocl video
+{
+      margin-top: 60px;
+      height: 400px;
+      width: 600px;
+      margin-top: 0;
+ 
+}
+
+#conten-first
+  {
+      background-image: url(bg2.jpg);
+      height: 100%;
+  }
+   
+.swiper-container 
+    {
+      height: 50%;
+      width: 100%;
+      padding-top: 100px;
+      padding-bottom:120px;
+      background-image: url(bg2.jpg);
+    }
+.swiper-slide 
+    {
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 300px;
+      background:#000;
+      -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#006);
+      
+    }
+
+.marquee
+{
+  
+      background-color: black;
+      color: white;
+
+}
+#info
+{   
+      background-color: #212529;
+}
+
+
+.test 
+{
+      color: white;
+}
+
+footer
+{
+      background-color: #66847F;;
+      height: 40px;
+      text-align: center;
+}
+
